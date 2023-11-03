@@ -1,0 +1,11 @@
+git+https://github.com/ildoonet/pytorch-randaugment
+tqdm==4.32.1
+h5py==2.9.0
+gdown
+omegaconf==1.4.0
+ipykernel==5.1.1
+seaborn==0.9.0
+scikit-learn
+ftfy
+regex
+loguru
