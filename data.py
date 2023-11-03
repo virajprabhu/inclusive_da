@@ -88,7 +88,7 @@ class UDADataset:
                 "data", self.benchmark, "{}.json".format(json_file)
             )
         elif self.benchmark == "geoyfcc":
-            json_path = os.path.join("data", "{}_sel2.json".format(json_file))
+            json_path = os.path.join("data", "{}.json".format(json_file))
             id2name = os.path.join("data", "geoyfccid2name.json")
             with open(id2name, "r") as f:
                 id2name = json.load(f)
@@ -113,7 +113,7 @@ class UDADataset:
                     elif self.benchmark == "geoyfcc":
                         fpath = os.path.join(
                             "data",
-                            "{}_sel2".format(self.benchmark),
+                            "{}".format(self.benchmark),
                             id2name[category],
                             "{}.jpg".format("".join(entry["filekey"].split("_"))),
                         )

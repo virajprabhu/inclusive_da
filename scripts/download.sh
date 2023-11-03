@@ -1,1 +1,0 @@
-gdown --folder 'https://drive.google.com/drive/folders/16sKPjqV0wECMZ4jSZg9_XxyhAd6a_or3'

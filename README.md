@@ -1,5 +1,10 @@
+
 ## PyTorch Code for "Can domain adaptation make object recognition work for everyone?" 
 ### Learning with Limited and Imperfect Data workshop, CVPR 2022
+
+<div align="center">
+    <img src="data/teaser.png" height=200 alt="LANCE logo"/>
+</div>
 
 Table of Contents
 =================
@@ -29,7 +34,7 @@ And you're all set!
 
 ### Download data
 
-To download both Dollarstreet-DA and GeoYFCC-DA datasets, run `sh scripts/download.sh` (note: requires ~12GB of free space).
+To download both Dollarstreet-DA and GeoYFCC-DA datasets, run `cd data; sh download.sh` (note: requires ~12GB of free space). This will download both datasets as a single zip file – unzip and you are set. 
 
 ### Train unsupervised DA model
 
